@@ -1,7 +1,7 @@
 Package: datamedios
 Type: Package
 Title: Scraping Chilean Media
-Version: 1.2.1
+Version: 1.2.2
 Authors@R: c(
   person(given = "Exequiel", family = "Trujillo", email = "exequiel.trujillo@ug.uchile.cl", role = c("aut", "cre", "cph", "fnd")),
   person(given = "Ismael", family = "Aguayo", email = "ismael.aguayo@ug.uchile.cl", role = c("aut", "fnd")),
@@ -20,12 +20,13 @@ Language: es-ES
 Depends: R (>= 4.1)
 Suggests: rcmdcheck
 Imports: dplyr, httr, magrittr, jsonlite, utils, rlang, wordcloud2,
-        tidytext, lubridate, rvest, stringr, xml2, purrr, DT, ggplot2
+        tidytext, lubridate, rvest, stringr, xml2, purrr, DT, ggplot2,
+        plotly
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2025-05-19 21:58:05 UTC; Compu
+Packaged: 2025-06-23 03:16:56 UTC; ismae
 Author: Exequiel Trujillo [aut, cre, cph, fnd],
   Ismael Aguayo [aut, fnd],
   Klaus Lehmann [aut, fnd]
 Repository: CRAN
-Date/Publication: 2025-05-19 22:10:01 UTC
+Date/Publication: 2025-06-23 03:30:02 UTC
